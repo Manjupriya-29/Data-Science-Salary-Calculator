@@ -113,7 +113,6 @@ This formula counts how many jobs match a set of specific conditions. It looks a
 
 <img src= "Counts_table.png" alt= mcounts_table width="400" height="500">
 
----
 ### **👨‍💼 count of job schedule types**
 ```
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
